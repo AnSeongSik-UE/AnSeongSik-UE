@@ -16,12 +16,14 @@ C#·C++ 기반 Windows 응용프로그램과 Unity·Unreal Engine 실시간 콘�
 
 ### Unreal Engine
 
-#### Virtual Production Pipeline · 개인 프로젝트
+#### Virtual Production Pipeline · 1인 개발
 
-MediaPipe 얼굴·포즈 추론 결과를 Binary UDP로 전달하고 Unreal Engine 5 C++ Runtime Plugin에서 수신해 VRoid 표정과 머리 회전에 반영했습니다.
+웹캠의 MediaPipe 얼굴·포즈 추론을 Binary UDP로 Unreal Engine 5.8 C++ Runtime Plugin에 전달해 VRoid 표정·머리·양쪽 상완을 구동하고, 아바타와 배경만 Spout로 송출하는 Windows 실시간 콘텐츠 앱입니다.
 
-- DataTable 기반 Blendshape–Morph Target 매핑과 OBS WebSocket 제어 구현
-- [GitHub 저장소](https://github.com/AnSeongSik-UE/VP)
+- VPTP 스키마 3 패킷 검증, 최신 프레임 처리와 추적 소실 복귀 구현
+- ShowOnly HDR 캡처와 GPU 합성으로 배경 제거·크로마 키 및 1280×720 Spout 출력
+- Python 테스트 33/33, Unreal 자동화 테스트 28/28, Windows 배포본 검사 26 PASS·0 FAIL
+- [GitHub 저장소](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8) · [Windows v1.0.0 릴리즈](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8/releases/tag/v1.0.0)
 
 #### TouchNPop · 4인 팀 프로젝트
 
