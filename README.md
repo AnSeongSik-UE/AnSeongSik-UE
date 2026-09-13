@@ -12,7 +12,7 @@ C#·C++ 기반 Windows 응용프로그램과 Unity·Unreal Engine 실시간 콘�
 
 - 포즈 검출기의 GPU 출력 대기 구조를 변경해 추론 갱신 평균을 9 FPS에서 16 FPS로 높이고 렌더 평균 60 FPS 유지
 - VRM 0.x·1.0 등록과 교체, 캐시·중복 방지, 캘리브레이션과 자원 수명주기 처리
-- [GitHub 저장소](https://github.com/AnSeongSik-UE/Virtual-Avatar-Studio) · [Windows v1.0 릴리즈](https://github.com/AnSeongSik-UE/Virtual-Avatar-Studio/releases/tag/v1.0)
+- [GitHub 저장소](https://github.com/AnSeongSik-UE/Virtual-Avatar-Studio) · [Windows 최신 릴리즈](https://github.com/AnSeongSik-UE/Virtual-Avatar-Studio/releases/latest)
 
 ### Unreal Engine
 
@@ -23,7 +23,7 @@ C#·C++ 기반 Windows 응용프로그램과 Unity·Unreal Engine 실시간 콘�
 - VPTP 스키마 3 패킷 검증, 최신 프레임 처리와 추적 소실 복귀 구현
 - ShowOnly HDR 캡처와 GPU 합성으로 배경 제거·크로마 키 및 1280×720 Spout 출력
 - Python 테스트 33/33, Unreal 자동화 테스트 28/28, Windows 배포본 검사 26 PASS·0 FAIL
-- [GitHub 저장소](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8) · [Windows v1.0.0 릴리즈](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8/releases/tag/v1.0.0)
+- [GitHub 저장소](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8) · [Windows 최신 릴리즈](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8/releases/latest)
 
 #### TouchNPop · 4인 팀 프로젝트
 
