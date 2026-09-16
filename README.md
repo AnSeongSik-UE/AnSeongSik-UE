@@ -20,7 +20,7 @@ C++·C# 기반 Windows 응용프로그램에서 실시간 영상·네트워크 �
 
 웹캠의 MediaPipe 얼굴·포즈 추론을 Binary UDP로 Unreal Engine 5.8 C++ Runtime Plugin에 전달해 VRoid 표정·머리·양쪽 상완을 구동하고, 아바타와 배경을 Spout2로 송출하는 Windows 실시간 콘텐츠 앱입니다.
 
-- VPTP 스키마 3 패킷 검증, 최신 프레임 처리와 추적 소실 복귀 구현
+- MediaPipe 추적 데이터를 전달하는 고정 구조 Binary UDP 패킷 검증, 최신 프레임 처리와 추적 소실 복귀 구현
 - ShowOnly HDR 캡처와 GPU 합성으로 아바타·배경을 분리 합성하고 1280×720 Spout2 출력
 - 통신·트래킹·UI/방송·프로세스 수명주기 및 Windows 배포 환경까지 단계별 검증
 - [GitHub 저장소](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8) · [Windows 최신 릴리즈](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8/releases/latest)
