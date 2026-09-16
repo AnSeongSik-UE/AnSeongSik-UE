@@ -1,6 +1,6 @@
 # 안성식
 
-C#·C++ 기반 Windows 응용프로그램과 Unity·Unreal Engine 실시간 콘텐츠를 개발합니다. 장비·영상·웹캠 입력을 처리해 사용자 화면, 아바타와 외부 시스템으로 연결하는 기능을 구현해 왔습니다.
+C++·C# 기반 Windows 응용프로그램에서 실시간 영상·네트워크 통신·외부 장비 연동을 개발해 왔으며, 이를 Unity·Unreal Engine 기반 실시간 콘텐츠와 Virtual Production 영역으로 확장하고 있습니다. 장비·영상·트래킹 데이터를 처리해 사용자 화면, 캐릭터, 방송 출력과 외부 시스템으로 연결하는 기능을 구현합니다.
 
 ## 주요 프로젝트
 
@@ -18,11 +18,11 @@ C#·C++ 기반 Windows 응용프로그램과 Unity·Unreal Engine 실시간 콘�
 
 #### Virtual Production Pipeline · 1인 개발
 
-웹캠의 MediaPipe 얼굴·포즈 추론을 Binary UDP로 Unreal Engine 5.8 C++ Runtime Plugin에 전달해 VRoid 표정·머리·양쪽 상완을 구동하고, 아바타와 배경만 Spout로 송출하는 Windows 실시간 콘텐츠 앱입니다.
+웹캠의 MediaPipe 얼굴·포즈 추론을 Binary UDP로 Unreal Engine 5.8 C++ Runtime Plugin에 전달해 VRoid 표정·머리·양쪽 상완을 구동하고, 아바타와 배경을 Spout2로 송출하는 Windows 실시간 콘텐츠 앱입니다.
 
 - VPTP 스키마 3 패킷 검증, 최신 프레임 처리와 추적 소실 복귀 구현
-- ShowOnly HDR 캡처와 GPU 합성으로 배경 제거·크로마 키 및 1280×720 Spout 출력
-- Python 테스트 33/33, Unreal 자동화 테스트 28/28, Windows 배포본 검사 26 PASS·0 FAIL
+- ShowOnly HDR 캡처와 GPU 합성으로 아바타·배경을 분리 합성하고 1280×720 Spout2 출력
+- 통신·트래킹·UI/방송·프로세스 수명주기 및 Windows 배포 환경까지 단계별 검증
 - [GitHub 저장소](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8) · [Windows 최신 릴리즈](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8/releases/latest)
 
 #### TouchNPop · 4인 팀 프로젝트
