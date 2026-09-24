@@ -2,7 +2,7 @@
 
 ## C++/C# 기반 실시간 응용 소프트웨어 개발자
 
-약 3년의 응용 소프트웨어 개발 경험이 있습니다. 로보스텍에서는 C++·C# 기반 Windows 상용 프로그램으로 실시간 영상 처리, 네트워크 통신과 외부 장비 연동을 개발했으며, KAKIS 프리랜서 기간에는 Python·PHP·Java 프로젝트에 참여했습니다. 개인 프로젝트에서는 Unity·Unreal 기반 실시간 콘텐츠를 실제 웹캠·아바타·방송 환경에서 검증했습니다.
+약 3년의 응용 소프트웨어 개발 경험이 있습니다. 로보스텍에서는 C++·C# 기반 Windows 상용 프로그램으로 실시간 영상 처리, 네트워크 통신과 외부 장비 연동을 개발했으며, KAKIS 프리랜서 기간에는 Python·PHP 개발과 Android 앱의 Google Play 업데이트·target SDK 대응을 수행했습니다. 개인 프로젝트에서는 Unity·Unreal 기반 실시간 콘텐츠를 실제 웹캠·아바타·방송 환경에서 검증했습니다.
 
 ## C++/C# Windows 상용 실무
 
@@ -58,8 +58,11 @@ Unreal Engine 5·Blueprint·ARCore를 사용한 Android AR 두더지잡기 프�
 - 담당: SaveGame 기반 저장 기능과 팀 수정사항 병합
 - [GitHub 저장소](https://github.com/AnSeongSik-UE/TouchNPop)
 
-## Python / PyQt 프리랜서·개인 프로젝트
+## 프리랜서·개인 프로젝트
 
 - [face-recognition](https://github.com/AnSeongSik-UE/face-recognition) — OpenCV 웹캠 프레임의 인식 상태·촬영 효과 합성과 PyQt 설정 화면
 - [order-pdf-workflow](https://github.com/AnSeongSik-UE/order-pdf-workflow) — PDF 일괄 다운로드·가공, 일시정지·이어받기·재시도
 - [shopping-rank-monitor](https://github.com/AnSeongSik-UE/shopping-rank-monitor) — 상품 순위 수집·변동 감지, SQLite 저장과 Telegram 알림
+- [inventory-pda-api](https://github.com/AnSeongSik-UE/inventory-pda-api) — 재물조사 PDA용 PHP API의 조회·등록 처리
+- [ndgf-webview-android](https://github.com/AnSeongSik-UE/ndgf-webview-android) — WebView 앱 패키징, target SDK와 Google Play 업데이트 대응
+- [stownbus-webview-android](https://github.com/AnSeongSik-UE/stownbus-webview-android) — WebView 앱의 target SDK 30→33 대응과 Google Play 업데이트
