@@ -64,5 +64,3 @@ Unreal Engine 5·Blueprint·ARCore를 사용한 Android AR 두더지잡기 프�
 - [order-pdf-workflow](https://github.com/AnSeongSik-UE/order-pdf-workflow) — PDF 일괄 다운로드·가공, 일시정지·이어받기·재시도
 - [shopping-rank-monitor](https://github.com/AnSeongSik-UE/shopping-rank-monitor) — 상품 순위 수집·변동 감지, SQLite 저장과 Telegram 알림
 - [inventory-pda-api](https://github.com/AnSeongSik-UE/inventory-pda-api) — 재물조사 PDA용 PHP API의 조회·등록 처리
-- [ndgf-webview-android](https://github.com/AnSeongSik-UE/ndgf-webview-android) — WebView 앱 패키징, target SDK와 Google Play 업데이트 대응
-- [stownbus-webview-android](https://github.com/AnSeongSik-UE/stownbus-webview-android) — WebView 앱의 target SDK 30→33 대응과 Google Play 업데이트
