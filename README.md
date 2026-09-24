@@ -64,3 +64,4 @@ Unreal Engine 5·Blueprint·ARCore를 사용한 Android AR 두더지잡기 프�
 - [order-pdf-workflow](https://github.com/AnSeongSik-UE/order-pdf-workflow) — PDF 일괄 다운로드·가공, 일시정지·이어받기·재시도
 - [shopping-rank-monitor](https://github.com/AnSeongSik-UE/shopping-rank-monitor) — 상품 순위 수집·변동 감지, SQLite 저장과 Telegram 알림
 - [inventory-pda-api](https://github.com/AnSeongSik-UE/inventory-pda-api) — 재물조사 PDA용 PHP API의 조회·등록 처리
+- [trading-workflow-enhancements](https://github.com/AnSeongSik-UE/trading-workflow-enhancements) — 거래내역 표시와 손절·익절 판단 작업의 비식별 재구성 예시
