@@ -63,5 +63,5 @@ Unreal Engine 5·Blueprint·ARCore를 사용한 Android AR 두더지잡기 프�
 - [face-recognition](https://github.com/AnSeongSik-UE/face-recognition) — OpenCV 웹캠 프레임의 인식 상태·촬영 효과 합성과 PyQt 설정 화면
 - [order-pdf-workflow](https://github.com/AnSeongSik-UE/order-pdf-workflow) — PDF 일괄 다운로드·가공, 일시정지·이어받기·재시도
 - [shopping-rank-monitor](https://github.com/AnSeongSik-UE/shopping-rank-monitor) — 상품 순위 수집·변동 감지, SQLite 저장과 Telegram 알림
-- [inventory-pda-api](https://github.com/AnSeongSik-UE/inventory-pda-api) — 재물조사 PDA용 PHP API의 조회·등록 처리
-- [trading-workflow-enhancements](https://github.com/AnSeongSik-UE/trading-workflow-enhancements) — 거래내역 표시와 손절·익절 판단 작업의 비식별 재구성 예시
+- [inventory-pda-api](https://github.com/AnSeongSik-UE/inventory-pda-api) — PDA 재물조사 정보 조회와 스캔 결과 등록을 처리하는 PHP API
+- [trading-workflow-enhancements](https://github.com/AnSeongSik-UE/trading-workflow-enhancements) — 일별 거래내역 조회·표시와 수익률 기준 손절·익절 처리
