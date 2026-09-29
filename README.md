@@ -54,9 +54,12 @@ MediaPipe 얼굴·포즈 추론 결과를 Binary UDP로 Unreal Engine 5.8 C++ Ru
 
 Unreal Engine 5·Blueprint·ARCore를 사용한 Android AR 두더지잡기 프로젝트입니다.
 
-- 담당: AR Plane 자동 식별과 감지된 평면 내부 무작위 위치 캐릭터 스폰
-- 담당: SaveGame 기반 저장 기능과 팀 수정사항 병합
-- [GitHub 저장소](https://github.com/AnSeongSik-UE/TouchNPop)
+**개인 기여**
+
+- AR Plane 자동 식별과 감지된 평면 내부 무작위 위치 캐릭터 스폰
+- SaveGame 기반 저장 기능과 팀 수정사항 병합
+
+[GitHub 저장소](https://github.com/AnSeongSik-UE/TouchNPop)
 
 ## 프리랜서·개인 프로젝트
 
