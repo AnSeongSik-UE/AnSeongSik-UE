@@ -25,7 +25,7 @@
 
 [Windows 장비 연동 개발 포트폴리오 보기](https://anseongsik-ue.github.io/windows-device-integration-portfolio/)
 
-## Unity / Unreal 개인 프로젝트
+## Unity 프로젝트
 
 ### Virtual Avatar Studio · 1인 프로젝트 · OpenAI Codex 활용
 
@@ -37,6 +37,8 @@
 - VRM 0.x·1.0 등록·교체, 캐시·중복 방지, 캘리브레이션과 종료 자원 해제를 실제 환경에서 검증
 - [GitHub 저장소](https://github.com/AnSeongSik-UE/Virtual-Avatar-Studio) · [Windows 최신 릴리즈](https://github.com/AnSeongSik-UE/Virtual-Avatar-Studio/releases/latest)
 
+## Unreal Engine 프로젝트
+
 ### Virtual Production Pipeline · 1인 프로젝트 · OpenAI Codex 활용
 
 MediaPipe 얼굴·포즈 추론 결과를 Binary UDP로 Unreal Engine 5.8 C++ Runtime Plugin에 전달해 VRoid 표정·머리·양쪽 상완에 반영하고, 아바타와 배경을 Spout2로 송출하는 Windows 실시간 콘텐츠 앱입니다.
@@ -47,8 +49,6 @@ MediaPipe 얼굴·포즈 추론 결과를 Binary UDP로 Unreal Engine 5.8 C++ Ru
 - VRoid 표정·머리·양쪽 상완 반영과 ShowOnly HDR 캡처·GPU 합성 기반 1280×720 Spout2 출력을 실제 환경에서 검증
 - 통신·트래킹·UI/방송·프로세스 수명주기와 Windows 배포·종료까지 단계별 확인
 - [GitHub 저장소](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8) · [Windows 최신 릴리즈](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8/releases/latest)
-
-## Unreal Engine 팀 프로젝트
 
 ### TouchNPop · 4인 팀 프로젝트
 
