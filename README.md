@@ -4,6 +4,8 @@
 
 약 3년의 응용 소프트웨어 개발 경험이 있습니다. 로보스텍에서는 C++·C# 기반 Windows 상용 프로그램으로 실시간 영상 처리, 네트워크 통신과 외부 장비 연동을 개발했으며, KAKIS 프리랜서 기간에는 Python·PHP 개발과 Android 앱의 Google Play 업데이트·target SDK 대응을 수행했습니다. 개인 프로젝트에서는 Unity·Unreal 기반 실시간 콘텐츠를 실제 웹캠·아바타·방송 환경에서 검증했습니다.
 
+Windows 실무와 Unity·Unreal 개인 프로젝트는 외부 입력을 실시간 처리해 응용 프로그램에 반영하고 화면·외부 시스템·방송 출력으로 연결하는 흐름을 공유합니다.
+
 ## C++/C# Windows 상용 실무
 
 ### ROV Camera System · C++ / MFC
@@ -21,7 +23,8 @@
 ### 조이패드 모터 제어 · C++ / Qt
 
 - 조이패드 입력을 모터 제어 명령으로 변환
-- Motor 1/2 RPM·전류·전압·온도 상태를 실시간 모니터링하는 UI 기능 추가
+- 모터 상태 수신 프로토콜 구현 및 수신 데이터 처리
+- Motor 1/2 RPM·전류·전압·온도 모니터링 UI 추가
 
 [Windows 장비 연동 개발 포트폴리오 보기](https://anseongsik-ue.github.io/windows-device-integration-portfolio/)
 
@@ -30,8 +33,6 @@
 ### Virtual Avatar Studio · 1인 프로젝트 · OpenAI Codex 활용
 
 웹캠 입력을 Unity Sentis로 얼굴·상체 포즈 데이터로 변환해 VRM에 반영하고, KlakSpout을 통해 OBS로 출력하는 Windows 실시간 콘텐츠 앱입니다.
-
-기능 목표와 문제 상황을 자연어로 정의하고 Codex에 코드 검토·원인 분석·수정을 요청했습니다. 수정 결과는 실제 웹캠·VRM·Spout·OBS 환경에서 직접 검증하고, 사용 과정에서 발견한 문제와 필요한 기능을 다시 정의해 반복 개선했습니다.
 
 - 평균 9 FPS 수준의 끊김을 확인해 원인 분석·수정을 요청하고, 수정 후 추론 갱신 평균 약 16 FPS와 렌더 평균 60 FPS 유지를 직접 확인
 - VRM 0.x·1.0 등록·교체, 캐시·중복 방지, 캘리브레이션과 종료 자원 해제를 실제 환경에서 검증
@@ -43,12 +44,12 @@
 
 MediaPipe 얼굴·포즈 추론 결과를 Binary UDP로 Unreal Engine 5.8 C++ Runtime Plugin에 전달해 VRoid 표정·머리·양쪽 상완에 반영하고, 아바타와 배경을 Spout2로 송출하는 Windows 실시간 콘텐츠 앱입니다.
 
-기능 목표와 문제 상황을 자연어로 정의하고 Codex에 코드 검토·원인 분석·수정을 요청했습니다. 수정 결과는 실제 웹캠·VRM·Spout·OBS 환경에서 직접 검증하고, 사용 과정에서 발견한 문제와 필요한 기능을 다시 정의해 반복 개선했습니다.
-
 - 프로젝트는 고정 구조 Binary UDP 패킷 검증, 최신 프레임 처리와 추적 소실 복귀 기능으로 구성
 - VRoid 표정·머리·양쪽 상완 반영과 ShowOnly HDR 캡처·GPU 합성 기반 1280×720 Spout2 출력을 실제 환경에서 검증
 - 통신·트래킹·UI/방송·프로세스 수명주기와 Windows 배포·종료까지 단계별 확인
 - [GitHub 저장소](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8) · [Windows 최신 릴리즈](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8/releases/latest)
+
+**VAS·VPP 공통 개발 방식:** 기능 목표와 문제 상황을 자연어로 정의하고 Codex에 코드 검토·원인 분석·수정·기능 추가를 요청했습니다. 실제 실행 환경에서 결과를 직접 검증하고, 발견한 문제와 필요한 기능을 다시 정의해 반복 개선했습니다.
 
 ### TouchNPop · 4인 팀 프로젝트
 
