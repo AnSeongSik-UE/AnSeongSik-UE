@@ -2,7 +2,7 @@
 
 ## 소프트웨어 개발자
 
-약 3년의 소프트웨어 개발 경험이 있습니다. 로보스텍에서 C++/C# 기반 Windows 프로그램의 장비 연동, 영상 처리, 네트워크 통신을 개발했으며, 프리랜서 기간에는 Python/PHP 개발과 Android 앱의 Google Play 업데이트 및 target SDK 대응을 수행했습니다.
+약 3년의 소프트웨어 개발 경험이 있습니다. 로보스텍에서 C++/C#을 사용해 Windows 환경에서 장비 연동, 영상 처리, 네트워크 통신 기능을 개발했으며, 프리랜서 기간에는 Python/PHP 개발과 Android 앱의 Google Play 업데이트 및 target SDK 대응을 수행했습니다.
 
 이후 Unreal Engine과 Unity를 활용한 실시간 3D 클라이언트 개발로 경험을 확장하고 있습니다.
 
@@ -29,7 +29,7 @@ ROV 운용 장비의 데이터를 수신하고 파싱해 화면, 로그 및 외�
 
 ### Motor Control
 
-조이패드 입력으로 모터를 제어하고 상태를 확인하는 C++/Qt 기반 Windows 프로그램입니다.
+기존 QGC 기반 프로그램에 조이패드 모터 제어와 상태 모니터링 기능을 추가한 C++/Qt 작업입니다.
 
 - 조이패드 입력을 모터 제어 명령으로 변환
 - 모터 상태 수신 프로토콜을 구현하고 수신 데이터를 처리
@@ -44,7 +44,6 @@ ROV 운용 장비의 데이터를 수신하고 파싱해 화면, 로그 및 외�
 - 촬영 전후 상태 이미지와 안내 가이드 표시
 - 인식 상태에 따른 안내 표시 시점과 투명도, 하단 배너 투명도 조정
 - 촬영 효과와 오디오 재생 흐름 적용 및 연속 촬영 오류 수정
-- Windows 빌드의 SQLite 의존성 보완
 
 [GitHub 저장소](https://github.com/AnSeongSik-UE/face-recognition)
 
@@ -85,26 +84,26 @@ ROV 운용 장비의 데이터를 수신하고 파싱해 화면, 로그 및 외�
 
 Google Play에 등록된 기존 Android 앱을 요구사항에 맞춰 업데이트한 작업입니다.
 
-- 요구 target SDK 문제를 해결하고 Google Play 업데이트 진행
+- target SDK 요구사항에 대응하고 Google Play 업데이트 진행
 
 ## Unreal Engine
 
 ### Virtual Production Pipeline
 
-MediaPipe의 얼굴과 포즈 추론 결과를 Binary UDP로 Unreal Engine 5.8 C++ Runtime Plugin에 전달해 VRoid에 반영하고 Spout2로 출력하는 1인 프로젝트입니다.
+MediaPipe로 추론한 얼굴과 포즈 데이터를 UDP로 Unreal Engine에 전달해 VRoid에 반영하고 Spout2로 출력하는 1인 프로젝트입니다.
 
 - Python과 Unreal Engine 사이 Binary UDP 패킷 검증 및 최신 프레임 기준 처리
 - VRoid 표정, 머리, 양쪽 상완 반영과 추적 소실 시 중립 자세 복귀
-- Spout2 출력 및 프로세스 실행 상태 확인과 시작 및 종료 관리
-- 기능 목표와 문제를 직접 정의하고 OpenAI Codex를 활용해 구현과 문제 해결을 진행한 뒤 실제 환경에서 결과 검증
+- 프로세스 실행 상태 확인 및 시작/종료 관리
+- 필요한 기능과 문제를 직접 정의하고 OpenAI Codex를 활용해 구현과 문제 해결을 진행한 뒤 실제 환경에서 결과를 검증
 
 [GitHub 저장소](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8) / [Windows 최신 릴리즈](https://github.com/AnSeongSik-UE/Virtual-Production-Pipeline-UE5.8/releases/latest)
 
 ### TouchNPop
 
-Unreal Engine 5의 Blueprint Only와 ARCore로 제작한 Android AR 두더지잡기 4인 팀 프로젝트입니다.
+Blueprint로 구현하고 ARCore의 Plane Tracking을 활용한 4인 팀 Android AR 두더지잡기 프로젝트입니다.
 
-- AR Plane 자동 식별 및 감지된 평면 내부 무작위 위치에 캐릭터 Spawn
+- AR Plane 자동 식별 및 감지된 평면 내부의 무작위 위치에 캐릭터 생성
 - SaveGame 기반 저장 기능 구현
 - 팀 변경사항 병합
 
@@ -114,12 +113,12 @@ Unreal Engine 5의 Blueprint Only와 ARCore로 제작한 Android AR 두더지잡
 
 ### Virtual Avatar Studio
 
-웹캠의 얼굴과 상체 포즈를 Unity 6 Sentis로 추론해 VRM에 반영하고 Spout/OBS로 출력하는 1인 프로젝트입니다.
+웹캠으로 입력받은 얼굴과 상체 포즈를 Sentis로 추론해 VRM에 반영하고 Spout/OBS로 출력하는 1인 프로젝트입니다.
 
 - 얼굴 및 상체 포즈 추론 결과를 VRM에 반영
-- 추론 과정의 끊김을 줄이고 추론과 렌더링 처리 안정화
+- 추론 과정의 끊김을 줄이고 추론과 렌더링 처리를 안정화
 - VRM 0.x와 1.0 등록 및 교체, 중복 등록 방지와 캘리브레이션
 - 웹캠, VRM, Spout, OBS의 전체 동작을 실제 환경에서 검증
-- 기능 목표와 문제를 직접 정의하고 OpenAI Codex를 활용해 구현과 문제 해결을 진행한 뒤 실제 환경에서 결과 검증
+- 필요한 기능과 문제를 직접 정의하고 OpenAI Codex를 활용해 구현과 문제 해결을 진행한 뒤 실제 환경에서 결과를 검증
 
 [GitHub 저장소](https://github.com/AnSeongSik-UE/Virtual-Avatar-Studio) / [Windows 최신 릴리즈](https://github.com/AnSeongSik-UE/Virtual-Avatar-Studio/releases/latest)
