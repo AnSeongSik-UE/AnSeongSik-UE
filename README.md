@@ -4,7 +4,7 @@
 
 약 3년의 소프트웨어 개발 경험이 있습니다. 로보스텍에서 C++/C#을 사용해 Windows 환경에서 장비 연동, 영상 처리, 네트워크 통신 기능을 개발했으며, 프리랜서 기간에는 Python/PHP 개발과 Android 앱의 Google Play 업데이트 및 target SDK 대응을 수행했습니다.
 
-이후 Unreal Engine과 Unity를 활용한 실시간 3D 클라이언트 개발로 경험을 확장하고 있습니다.
+최근에는 Unity와 Unreal Engine 개인 프로젝트를 진행하며 실시간 데이터 연동과 3D 클라이언트 개발 경험을 쌓고 있습니다.
 
 ## C++/C# 실무
 
@@ -80,11 +80,26 @@ ROV 운용 장비의 데이터를 수신하고 파싱해 화면, 로그 및 외�
 - 기존 코드 분석과 거래내역 조회 및 표시 기능 보강
 - 손절 및 익절 조건 처리 기능 추가
 
-### Google Play 업데이트
+### 웹사이트 이관 자동화
 
-Google Play에 등록된 기존 Android 앱을 요구사항에 맞춰 업데이트한 작업입니다.
+- Python/Selenium 기반 Excel CSS 태그 일괄 수정 및 게시글 등록 자동화
 
-- target SDK 요구사항에 대응하고 Google Play 업데이트 진행
+### WebView 모바일 애플리케이션 개발
+
+- Java/PHP 기반 Android 앱 개발 및 요구사항 수정
+
+### 기타 개발 및 기능 개선
+
+- 기존 Android 앱의 target SDK 대응 및 Google Play 업데이트
+- Python/Selenium 기반 자동 로그인 프로그램 개발
+- PHP 기반 주문 Form 및 웹사이트 정보 수정
+- Cafe24 기반 E-Book 사이트 제작
+- PHP 기반 쇼핑몰 주문 기능 수정
+- PHP 기반 신고 기능 추가
+- PHP 기반 사이트 문구 수정 및 CAPTCHA 적용
+- Python 기반 데스크톱 프로그램 개발
+- PHP 기반 상품 SNS/SMS 공유 기능 개발
+- PHP 기반 댓글 표시 기능 수정
 
 ## Unreal Engine
 
